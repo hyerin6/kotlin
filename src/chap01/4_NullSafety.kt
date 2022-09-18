@@ -1,3 +1,5 @@
+import chap01.NullSafety
+
 fun getNullStr(): String? = null
 
 fun getLengthIfNotNull(str: String?) = str?.length ?: 0
@@ -25,7 +27,7 @@ fun main() {
 
     // ====================================================================
 
-    // Java > Kotlin 변환 (NullSafety.java 참고) 
+    // Java > Kotlin 변환 (chap01.NullSafety.java 참고)
     val nullableStr = getNullStr()
 
     // val nullableStrLength = nullableStr.length // 컴파일 오류 발생

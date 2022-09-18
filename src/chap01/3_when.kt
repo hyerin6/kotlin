@@ -1,3 +1,5 @@
+package chap01
+
 fun main() {
 
     // 자바 switch를 코틀린 when 식으로

@@ -1,3 +1,5 @@
+package chap01;
+
 public class Java_Exception {
 
     public static void main(String[] args) {
